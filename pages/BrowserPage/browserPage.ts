@@ -11,6 +11,8 @@ export class BrowserPage{
         const pages = await context.pages();
         await pages[1].bringToFront();
         console.log("Test case Passed")
+        console.log("Test case Passed")
+        console.log("Test case Passed")
     }
 
     
